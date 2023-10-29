@@ -1,4 +1,4 @@
-1879B - Chips on the Board
+//1879B - Chips on the Board
 
 
 #include <iostream>
