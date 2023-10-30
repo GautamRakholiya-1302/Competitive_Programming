@@ -33,3 +33,28 @@ int main()
 
 
 // Second Approch
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		int n,v=0;
+		cin>>n;
+		string s;
+		cin>>s;
+		set<char> m;
+		for(int i=0;i<n;i++)
+		{
+			if(i!=0){
+				if(m.find(s[i])!=m.end()&&s[i-1]!=s[i]) {v++; break;}
+			}
+			m.insert(s[i]);
+		}
+		if(v) cout<<"NO\n";
+		else cout<<"YES\n";
+	}
+}
