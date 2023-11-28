@@ -1,3 +1,5 @@
+//1560A - Dislike of Threes
+
 #include <bits/stdc++.h>
 using namespace std;
 int main() 
